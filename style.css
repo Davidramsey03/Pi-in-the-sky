@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Righteous', cursive;
+}
+
+input {
+    position: absolute;
+    top:48px;
+    left:48px;
+    background: rgba(255,255,255,0.3);
+    border:none;
+    width:24px;
+    font-size:18px;
+    text-align: center;
+    color: white;
+    padding:4px;
+}
