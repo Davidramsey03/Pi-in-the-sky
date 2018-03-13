@@ -54,6 +54,12 @@ function draw() {
     buildings[i].show();
   }
 
+  fill(255);
+  textFont("Righteous");
+  textAlign(LEFT);
+  textSize(20);
+  text("Buildings / Digits", 90, 70);
+
   if (greeting) { greeting.show(); }
 }
 
